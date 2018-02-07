@@ -31,14 +31,11 @@ namespace Project_1
 
 
             Console.WriteLine(" ");
-            Console.WriteLine("Your name is: " + fullName);
-            Console.WriteLine("Your height in centimeters is: " + totalHeightCM);
+            Console.WriteLine("Your name: " + fullName);
+            Console.WriteLine("Your height in centimeters: " + totalHeightCM);
             Console.WriteLine("You can vote if True: " + canVote);
-            Console.WriteLine("**Please press enter to exit**");
-            Console.WriteLine(" ");
-            Console.WriteLine(" ");
+            Console.WriteLine("**Press enter to exit**");
             Console.ReadLine();
-
 
         }
         }
